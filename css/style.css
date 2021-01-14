@@ -1,6 +1,15 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.container{
+    padding: 0px !important;
+}
 /* ------------------------------------------ */
 /* ----------------- HEADER ----------------- */
 /* ------------------------------------------ */
@@ -356,6 +365,11 @@ header nav ul li a{
 .col-sm-3,.col-sm-9{
     padding: 0;
 }
+.movie-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .movie-inner img{
     width: 190px;
     height: 230px;
@@ -368,10 +382,29 @@ header nav ul li a{
 .movie-details .tag{
     color: #ec7532;
 }
+.movie-details h3{
+
+}
+.movie-details .descritpion{
+
+}
+.time-left-title{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.movie-details .read-more a{
+    color: #ec7532;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.movie-time{
+    margin-top: 20px;
+}
 .movie-item{
-    border-bottom: 1px solid grey;
+    border-bottom:1px solid grey;
     padding: 30px 0px;
 }
+
 .time-right{
     text-align: right;
 }
@@ -392,7 +425,7 @@ header nav ul li a{
     position: absolute;
     height: 5px;
     width: 89px;
-    top: 65px;
+    top: 63px;
     left: 0;
     bottom: 0;
     background-image: linear-gradient(to right,#fbbd61,#ec7532);
@@ -403,7 +436,7 @@ header nav ul li a{
     position: absolute;
     height: 5px;
     width: 0px;
-    top: 65px;
+    top: 63px;
     left: 0;
     bottom: 0;
     background-image: linear-gradient(to right,#fbbd61,#ec7532);
@@ -411,4 +444,26 @@ header nav ul li a{
 }
 .nav-pills .nav-item a:hover::after{
     width: 89px;
+}
+.time-left > .time-show{
+    background-color: #d8d8d8 !important;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.time-left > .past{
+    opacity: 0.5;
+}
+.time-right span{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.time-right .duration-time{
+   
+    background: #4a4a4a;
+    border-radius: 50%;
+    color: white;
+   padding:10px;
+   font-weight: bold;
 }
