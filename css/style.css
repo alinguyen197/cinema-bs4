@@ -1,10 +1,12 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-
+/* ------------------------------------------ */
+/* ----------------- HEADER ----------------- */
+/* ------------------------------------------ */
 header{
     position: absolute;
-    z-index: 1; 
+    z-index: 999;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 30px;
@@ -14,6 +16,8 @@ header{
 }
 .navbar {
     background-color: transparent !important;
+    padding: 0 ;
+   
 }
 header nav ul{
     border-bottom: 1px solid #fffffff7;
@@ -32,7 +36,10 @@ header nav ul li a{
     
     text-transform: uppercase;
 }
-
+.nav-item a{
+    padding: 20px 24px !important;
+    letter-spacing: 2px !important;
+}
 .nav-item{
     position: relative;
     font-size: 18px;
@@ -65,8 +72,17 @@ header nav ul li a{
 .carousel-item {
     position: relative;
 }
+.carousel-item .overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(0,0,0,0.8);
+}
 .carousel-inner .item1{
-    background-image: url(../img/hero-1.jpg);
+    background-image: url(../img/hero-1.jpg) ;
 }  
 .carousel-inner .item2{
     background-image: url(../img/hero-2.jpg);
@@ -80,6 +96,7 @@ header nav ul li a{
     background-position: center;
     height: 650px;
 }
+
 .carousel-indicators li{
     height: 10px;
     width: 10px;
@@ -89,6 +106,16 @@ header nav ul li a{
 }
 .carousel-indicators {
     justify-content: flex-start;
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+    left: 0px;
+    z-index: 15;
+    display: flex;
+    padding-left: 0px;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
 }
 .carousel-indicators li.active{
     background-color: white;
@@ -96,9 +123,24 @@ header nav ul li a{
 .carousel-inner .row{
     color:white
 }
-.col-md-9{
+.col-md-7{
     position: absolute;
-    top:300px
+    top:260px
+}
+.heading-main-text  .title{
+    color: #fbbd61;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.heading-main-text  h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.heading-main-text  p{
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 600;
 }
 .certificate{
     font-size: 13px;
@@ -149,9 +191,43 @@ header nav ul li a{
     position: relative;
 }
 .slick-prev::before, .slick-next::before{
-    font-size: 15px;
+    font-size: 25px;
     color: orange;
+    
 }
+.slick-prev,.slick-next{
+    top:40%;
+}
+.slick-prev{
+    left: -30px;
+}
+.carousel-arrow{
+    display: flex;
+    justify-content: center;
+    animation: mymove ease-in-out 2s infinite;
+    height: 27px;
+    position: absolute;
+    top: 623px;
+    z-index: 10;
+    width: 100%;
+}
+
+@keyframes mymove {
+   0%{
+        left: 0;
+   }
+   50%{
+        left: 3px;
+   }
+   100%{
+       right: 0px;
+   }
+}
+
+/* ------------------------------------------ */
+/* ----------------- NEW IN ----------------- */
+/* ------------------------------------------ */
+
 .movie-poster img{
     width: 100%;
 }
@@ -269,4 +345,70 @@ header nav ul li a{
 }
 .section{
     margin-bottom: 130px;
+}
+.slick-dots{
+    display: none !important;
+}
+/* ------------------------------------------ */
+/* --------------- SCHEDULE MOVIE------------- */
+/* ------------------------------------------ */
+
+.col-sm-3,.col-sm-9{
+    padding: 0;
+}
+.movie-inner img{
+    width: 190px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.movie-details{
+    padding: 0 50px;
+}
+.movie-details .tag{
+    color: #ec7532;
+}
+.movie-item{
+    border-bottom: 1px solid grey;
+    padding: 30px 0px;
+}
+.time-right{
+    text-align: right;
+}
+.nav{
+    border-bottom: 1px solid grey;
+}
+.nav li a{
+    color: black !important;
+    
+}
+.nav li a.active{
+   color: #ec7532 !important;
+    background-color: transparent !important;
+}
+.nav-pills .nav-item a.active:after{ 
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 89px;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right,#fbbd61,#ec7532);
+}
+.nav-pills .nav-item a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 0px;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right,#fbbd61,#ec7532);
+    transition: all 0.5s;
+}
+.nav-pills .nav-item a:hover::after{
+    width: 89px;
 }
