@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- font -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,14 +18,16 @@
   <link rel="stylesheet" href="./slick/slick.css">
   <link rel="stylesheet" href="./slick/slick-theme.css">
   <!-- js venoxnob css -->
-  <link rel="stylesheet" href="./css/venobox.css">
+  <link rel="stylesheet" href="./css/venobox.css"> <!-- font awesome
   <!-- my css -->
   <link rel="stylesheet" href="./css/reponsive.css">
   <link rel="stylesheet" href="./css/style.css">
+  
 </head>
 
 <body>
-  <header class="container">
+  <header>
+    <div class="container header">
     <div class="heading text-right">
       <i class="fas fa-phone pr-2"></i>
       <span class="border-right pr-2">090909090</span>
@@ -62,6 +64,7 @@
         </ul>
       </div>
     </nav>
+  </div>
   </header>
 
   <div id="demo" class="carousel slide" data-ride="carousel">
@@ -79,7 +82,7 @@
         <div class="overlay">
           <div class="container">
             <div class="row">
-              <div class="heading-main-text col-md-7">
+              <div class="heading-main-text col-sm-10 col-lg-7 col-md-7 col-12 col-xl-7">
                 <span class="title">Action, Adventure, Fantasy</span>
                 <h1>End of the World: Part II</h1>
                 <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
@@ -104,7 +107,7 @@
         <div class="overlay">
           <div class="container">
             <div class="row text-white">
-              <div class="heading-main-text  col-md-7">
+              <div class="heading-main-text  col-md-7 col-sm-10">
                 <span class="title">Action, Adventure, Fantasy</span>
                 <h1>End of the World: Part II</h1>
                 <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
@@ -129,7 +132,7 @@
         <div class="overlay">
           <div class="container">
             <div class="row text-white">
-              <div class="heading-main-text col-md-7">
+              <div class="heading-main-text col-md-7 col-sm-10">
                 <span class="title">Action, Adventure, Fantasy</span>
                 <h1>End of the World: Part II</h1>
                 <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
@@ -290,6 +293,7 @@
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
@@ -298,228 +302,239 @@
 
   <div class="container">
     <!-- Nav pills -->
-    <ul class="nav nav-pills" role="tablist">
-      <li class="nav-item ">
-        <a class="nav-link active " data-toggle="pill" href="#home">MON</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu1">TUE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu2">WED</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu3">THU</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu4">FRI</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu5">SAT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu6">SUN</a>
-      </li>
-    </ul>
+    <div class="row border-nav ">
+      <ul class="nav nav-pills col-" role="tablist">
+        <li class="nav-item ">
+          <a class="nav-link active " data-toggle="pill" href="#home">MON</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu1">TUE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu2">WED</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu3">THU</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu4">FRI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu5">SAT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#menu6">SUN</a>
+        </li>
+      </ul>
+    </div>
+    
 
     <!-- Tab panes -->
     <div class="tab-content">
       <div id="home" class=" tab-pane active">
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-6.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-6.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-6.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-6.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div id="menu1" class="container tab-pane fade">
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-7.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-7.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2movie-inner">
             <img src="./img/movie-7.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-7.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
-        
+
       </div>
       <div id="menu2" class="container tab-pane fade">
         <div class="row movie-item">
@@ -529,20 +544,21 @@
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
@@ -553,20 +569,21 @@
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
@@ -577,20 +594,21 @@
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
@@ -601,425 +619,790 @@
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
-        
+
       </div>
       <div id="menu3" class="container tab-pane fade">
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-9.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-9.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-10 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-9.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-9.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div id="menu4" class="container tab-pane fade">
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-2.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div> 
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-2.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div> 
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
             <img src="./img/movie-2.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div> 
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2movie-inner">
             <img src="./img/movie-2.jpg" alt="">
           </div>
           <div class="col-sm-10 movie-details">
             <span class="tag">ACTION, ADVENTURE, FANTASY</span>
             <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
             <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
             <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div> 
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <div id="menu5" class="container tab-pane fade">
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-11.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-11.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-11.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-11.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <div id="menu6" class="container tab-pane fade">
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-12.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-12.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-12.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row movie-item">
-          <div class="col-sm-2 movie-inner">
-            <img src="./img/movie-12.jpg" alt="">
-          </div>
-          <div class="col-sm-10 movie-details">
-            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
-            <h3>It's over</h3>
-            <p class="description">European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
-            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
-            <div class="row movie-time">
-                <div class="col-sm-7 time-left">
-                  <span class="time-left-title">VIEWING TIMES </span>
-                  <span class="time-show past">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                  <span class="time-show">14:45</span>
-                </div>
-                <div class="col-sm-5 time-right">
-                  <span>105 MINS </span>
-                  <span class="duration-time">15</span>
-                </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
             </div>
           </div>
         </div>
 
+      </div>
+      <div id="menu5" class="container tab-pane fade">
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
+            <img src="./img/movie-11.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
+            <img src="./img/movie-11.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
+            <img src="./img/movie-11.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
+            <img src="./img/movie-11.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="menu6" class="container tab-pane fade">
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
+            <img src="./img/movie-12.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2movie-inner">
+            <img src="./img/movie-12.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
+            <img src="./img/movie-12.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row movie-item">
+          <div class="col-sm-10 col-12 col-md-12 col-lg-2 col-xl-2 movie-inner">
+            <img src="./img/movie-12.jpg" alt="">
+          </div>
+          <div class="col-sm-10 movie-details">
+            <span class="tag">ACTION, ADVENTURE, FANTASY</span>
+            <h3>It's over</h3>
+            <p class="description">European mercenaries searching for black powder become embroiled in the defense of
+              It's over of China against a horde of monstrous creatures.</p>
+            <span class="read-more"><a href="#">FULL SYNOPSIS ></a></span>
+            <div class="row movie-time">
+              <div class="col-sm-12 col-12 col-md-12 col-lg-7 col-xl-7 time-left">
+                <span class="time-left-title">VIEWING TIMES </span>
+                <span class="time-show past">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+                <span class="time-show">14:45</span>
+              </div>
+              <div class="col-sm-12 col-12 col-md-12 col-lg-5 col-xl-5 time-right">
+                <span>105 MINS </span>
+                <span class="duration-time">15</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  </div>
 
+  <!-- Coming Soon -->
+  <section id="comingsoon" class="dark">
+    <div>
+        <div class="slider-for">
+            <div class="comingsoon__top top-1 pt-5">
+                <h1 class="container heading pt-4 pb-4">Coming soon</h1>
+                <div class="container comingsoon__content px-0">
+                    <div class="comingsoon__item" data-slick-index="0">
+                        <div class="row ">
+                            <div class="comingsoon__left col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 ">
+                                <h1>Drama, Thriller</h1>
+                                <h2>Deepwater Horizon</h2>
+                                <div class="starrate">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="date">
+                                    <i class="fas fa-calendar-week"></i>
+                                    30 September, 2017
+                                </div>
+                                <p class="pr-5">A dramatization of the April 2010 disaster, when the offshore
+                                    drilling rig Deepwater
+                                    Horizon
+                                    exploded and created the worst oil spill in U.S. history.</p>
+                                <a href="#">More info > </a>
+                            </div>
+                            <div class="comingsoon__right item7 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <a href="https://www.youtube.com/embed/S-UPJyEHmM0" data-vbtype="video"
+                                    class="venobox">
+                                   
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comingsoon__top top-2 pt-5">
+                <h1 class="container heading pt-4 pb-4">Coming soon</h1>
+                <div class="container comingsoon__content px-0">
+                    <div class="comingsoon__item" data-slick-index="1">
+                        <div class="row">
+                            <div class="comingsoon__left col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5">
+                                <h1>Action, Adventure, Sci-Fi</h1>
+                                <h2>X-Men: Days of Future Past</h2>
+                                <div class="starrate">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star grey"></i>
+                                </div>
+                                <div class="date">
+                                    <i class="fas fa-calendar-week"></i>
+                                    07 September, 2018
+                                </div>
+                                <p class="pr-5 ">The X-Men send Wolverine to the past in a desperate effort to change
+                                    history and prevent an event that results in doom for both humans and mutants.
+                                </p>
+                                <a href="#">More info > </a>
+                            </div>
+                            <div class="comingsoon__right item6 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <a href="https://www.youtube.com/embed/S-UPJyEHmM0" data-vbtype="video"
+                                    class="venobox">
+                            
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comingsoon__top top-3 pt-5">
+                <h1 class="container heading pt-4 pb-4">Coming soon</h1>
+                <div class="container comingsoon__content px-0">
+                    <div class="comingsoon__item" data-slick-index="1">
+                        <div class="row">
+                            <div class="comingsoon__left col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5">
+                                <h1>Comedy, Crime</h1>
+                                <h2>The Hangover Part III</h2>
+                                <div class="starrate">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="date">
+                                    <i class="fas fa-calendar-week"></i>
+                                    30 September, 2017
+                                </div>
+                                <p class="pr-5">When one of their own is kidnapped by an angry gangster, the Wolf
+                                    Pack must track down Mr. Chow, who has escaped from prison and is on the run.
+                                </p>
+                                <a href="#">More info > </a>
+                            </div>
+                            <div class="comingsoon__right item5 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <a href="https://www.youtube.com/embed/S-UPJyEHmM0" data-vbtype="video"
+                                    class="venobox">
+                                   
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comingsoon__top top-1 pt-5">
+                <h1 class="container heading pt-4 pb-4">Coming soon</h1>
+                <div class="container comingsoon__content px-0">
+                    <div class="comingsoon__item" data-slick-index="0">
+                        <div class="row">
+                            <div class="comingsoon__left col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5">
+                                <h1>Action, Adventure, Sci-Fi</h1>
+                                <h2>Transformers: Age of Extinction</h2>
+                                <div class="starrate">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="date">
+                                    <i class="fas fa-calendar-week"></i>
+                                    15 April, 2018
+                                </div>
+                                <p class="pr-5">Autobots must escape sight from a bounty hunter who has taken
+                                    control of the human serendipity: Unexpectedly, Optimus Prime and his remaining
+                                    gang turn to a mechanic, his daughter, and her back street racing boyfriend for
+                                    help.</p>
+                                <a href="#">More info > </a>
+                            </div>
+                            <div class="comingsoon__right item4 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <a href="https://www.youtube.com/embed/S-UPJyEHmM0" data-vbtype="video"
+                                    class="venobox">
+                                    
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comingsoon__top top-2 pt-5">
+                <h1 class="container heading pt-4 pb-4">Coming soon</h1>
+                <div class="container comingsoon__content px-0">
+                    <div class="comingsoon__item" data-slick-index="1">
+                        <div class="row">
+                            <div class="comingsoon__left col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5">
+                                <h1>Action, Adventure, Drama</h1>
+                                <h2>End of an empire</h2>
+                                <div class="starrate">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star grey"></i>
+                                </div>
+                                <div class="date">
+                                    <i class="fas fa-calendar-week"></i>
+                                    15 April, 2018
+                                </div>
+                                <p class="pr-5">A growing nation of genetically evolved apes led by Caesar is
+                                    threatened by a band of human survivors of the devastating virus unleashed a
+                                    decade earlier.
+                                </p>
+                                <a href="#">More info > </a>
+                            </div>
+                            <div class="comingsoon__right item3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <a href="https://www.youtube.com/embed/S-UPJyEHmM0" data-vbtype="video"
+                                    class="venobox">
+                                    
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comingsoon__top top-3 pt-5">
+                <h1 class="container heading pt-4 pb-4">Coming soon</h1>
+                <div class="container comingsoon__content px-0">
+                    <div class="comingsoon__item" data-slick-index="1">
+                        <div class="row">
+                            <div class="comingsoon__left col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5">
+                                <h1>Crime, Thriller, Drama</h1>
+                                <h2>Hannibal Rising</h2>
+                                <div class="starrate">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="date">
+                                    <i class="fas fa-calendar-week"></i>
+                                    15 April, 2018
+                                </div>
+                                <p class="pr-5">After the death of his parents during World War II, young Hannibal
+                                    Lecter moves in with his beautiful aunt and begins plotting revenge on the
+                                    barbarians responsible for his sister's death.
+                                </p>
+                                <a href="#">More info > </a>
+                            </div>
+                            <div class="comingsoon__right item2 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <a href="https://www.youtube.com/embed/S-UPJyEHmM0" data-vbtype="video"
+                                    class="venobox">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comingsoon__top top-1 pt-5">
+                <h1 class="container heading pt-4 pb-4">Coming soon</h1>
+                <div class="container comingsoon__content px-0">
+                    <div class="comingsoon__item" data-slick-index="0">
+                        <div class="row">
+                            <div class="comingsoon__left col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5">
+                                <h1>Adventure, Drama, Sci-Fi </h1>
+                                <h2>Locked out</h2>
+                                <div class="starrate">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="date">
+                                    <i class="fas fa-calendar-week"></i>
+                                    15 April, 2018
+                                </div>
+                                <p class="pr-5">An astronaut becomes stranded on Mars after his team assume him
+                                    dead, and must rely on his ingenuity to find a way to signal to Earth that he is
+                                    alive.</p>
+                                <a href="#">More info > </a>
+                            </div>
+                            <div class="comingsoon__right item1 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <a href="https://www.youtube.com/embed/S-UPJyEHmM0" data-vbtype="video"
+                                    class="venobox">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- slider-nav -->
+        <div class="slider-nav-comming-soon container py-4">
+            <div class="comingsoon__nav slider-nav">
+                <div class="cmnav__item" data-slick-index="0">
+                    <img src="./img/movie-14.jpg" alt="" class="mx-auto">
+                    <h5 class="mb-2">Deepwater horizon</h5>
+                    <h6>07 September, 2017</h6>
+                    <div class="slider-nav-overlay"></div>
+                </div>
+                <div class="cmnav__item" data-slick-index="1">
+                    <img src="./img/movie-13.jpg" alt="" class="mx-auto">
+                    <h5 class="mb-2">Too Fast</h5>
+                    <h6>15 April, 2017</h6>
+                    <div class="slider-nav-overlay"></div>
+                </div>
+                <div class="cmnav__item" data-slick-index="2">
+                    <img src="./img/movie-12.jpg" alt="" class="mx-auto">
+                    <h5 class="mb-2">The Hangover: Part III</h5>
+                    <h6>30 September, 2017</h6>
+                    <div class="slider-nav-overlay"></div>
+                </div>
+                <div class="cmnav__item" data-slick-index="3">
+                    <img src="./img/movie-11.jpg" alt="" class="mx-auto">
+                    <h5 class="mb-2">Transformers: Age of Extinction</h5>
+                    <h6>15 April, 2018</h6>
+                    <div class="slider-nav-overlay"></div>
+                </div>
+                <div class="cmnav__item" data-slick-index="4">
+                    <img src="./img/movie-9.jpg" alt="" class="mx-auto">
+                    <h5 class="mb-2">End of an empire</h5>
+                    <h6>19 October, 2018</h6>
+                    <div class="slider-nav-overlay"></div>
+                </div>
+                <div class="cmnav__item" data-slick-index="5">
+                    <img src="./img/movie-8.jpg" alt="" class="mx-auto">
+                    <h5 class="mb-2">The comedian</h5>
+                    <h6>21 November, 2018</h6>
+                    <div class="slider-nav-overlay"></div>
+                </div>
+                <div class="cmnav__item" data-slick-index="6">
+                    <img src="./img/movie-7.jpg" alt="" class="mx-auto">
+                    <h5 class="mb-2">Locked out</h5>
+                    <h6>01 December, 2018</h6>
+                    <div class="slider-nav-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- contact -->
+  <section class="contact-us">
+    <div class="contact-inner">
+      <div class="contact-details">
+        <p>Need help? Contact our support team on</p>
+        <span>0330 123 4567</span>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer> 
+    <div class="container footer-inner">
+      <div class="row line">
+        <div class="col-sm-3 footer-details">
+          <h4>GET IN TOUCH</h4>
+          <p>FAQs</p>
+          <p>Give us feedback</p>
+          <p>Contact us</p>
+        </div>
+        <div class="col-sm-3 footer-details">
+          <h4>ABOUT MOVIE STAR</h4>
+          <p>About us</p>
+          <p>Find us</p>
+          <p>Schedule</p>
+          <p>News</p>
+        </div>
+        <div class="col-sm-3 footer-details">
+          <h4>LEGAL STUFF</h4>
+          <p>Terms & Conditions</p>
+          <p>Privacy policy</p>
+          <p>Cookie policy</p>
+        </div>
+        <div class="col-sm-3 footer-details">
+          <h4>CONNECT WITH US</h4>
+          <p><i class="fab fa-facebook-f"></i><span>Facebook</span></p>
+          <p><i class="fab fa-twitter"></i><span> Twitter</span></p>
+          <p><i class="fab fa-google-plus-g"></i><span> Google +</span></p>
+        </div>
+        
+      </div>
+      <div class="row">
+          <div class="col-sm-12 pt-3 copyrighting">
+              <p>2017 © Movie Star / <span>Web design by Klever media</span> </p>
+          </div>
+      </div>
+      
+  </div>
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -1061,6 +1444,13 @@
           }
         },
         {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
@@ -1076,6 +1466,52 @@
   <script>
     $(document).ready(function () {
       $('.venobox').venobox();
+    });
+  </script>
+  <script>
+    $('.slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: true,
+      centerMode: true,
+      focusOnSelect: true,  
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+
     });
   </script>
 </body>
