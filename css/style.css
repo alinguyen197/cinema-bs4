@@ -1,11 +1,9 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+   
    
 }
-html{
-    overflow-x: hidden;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +17,8 @@ html{
 /* ------------------------------------------ */
 header{
    position: relative;
+   width: 100%;
+   z-index: 999;
 }
 .header{
     position: absolute;
@@ -122,7 +122,7 @@ header{
 }
 .carousel-indicators {
     justify-content: flex-start;
-    transform: translateX(-70px);
+    transform: translateX(-70px) ;
     position: absolute;
     right: 0px;
     width: 100%;
@@ -561,7 +561,7 @@ header{
 }
 
 .comingsoon__right a i{
-border: 1px solid white;
+border: 1px solid #ec7532;
 padding: 30px;
 border-radius: 50%;
 outline: none;
@@ -678,7 +678,7 @@ outline-width: 0;
 /* ------------------------------------------ */
 footer{
     background:#101010;
-    padding: 75px 0;
+    padding: 75px 0px 0px 0px;
     color: white;
 }
 .footer-details h4{
@@ -689,13 +689,18 @@ footer{
 }
 .footer-details p i{
     margin-right: 10px;
+    
 }
 .footer-details p {
     transition: all 0.5s;
     cursor: pointer;
+    font-size: 13px;
 }
-.footer-details p:hover{
+.footer-details p:hover {
     color: #ec7532;
+}
+.copyrighting p{
+    font-size:13px;
 }
 .copyrighting span{
     transition: all 0.5s;

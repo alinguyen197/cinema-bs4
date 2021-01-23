@@ -26,7 +26,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header__run">
     <div class="container header">
     <div class="heading text-right">
       <i class="fas fa-phone pr-2"></i>
@@ -107,7 +107,7 @@
         <div class="overlay">
           <div class="container">
             <div class="row text-white">
-              <div class="heading-main-text  col-md-7 col-sm-10">
+              <div class="heading-main-text  col-sm-10 col-lg-7 col-md-7 col-12 col-xl-7">
                 <span class="title">Action, Adventure, Fantasy</span>
                 <h1>End of the World: Part II</h1>
                 <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
@@ -132,7 +132,7 @@
         <div class="overlay">
           <div class="container">
             <div class="row text-white">
-              <div class="heading-main-text col-md-7 col-sm-10">
+              <div class="heading-main-text col-sm-10 col-lg-7 col-md-7 col-12 col-xl-7">
                 <span class="title">Action, Adventure, Fantasy</span>
                 <h1>End of the World: Part II</h1>
                 <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
@@ -1368,26 +1368,26 @@
   <footer> 
     <div class="container footer-inner">
       <div class="row line">
-        <div class="col-sm-3 footer-details">
+        <div class="col-sm-12 col-12 col-md-3 col-lg-3 col-xl-3  footer-details">
           <h4>GET IN TOUCH</h4>
           <p>FAQs</p>
           <p>Give us feedback</p>
           <p>Contact us</p>
         </div>
-        <div class="col-sm-3 footer-details">
+        <div class="col-sm-12 col-12 col-md-3 col-lg-3 col-xl-3  footer-details">
           <h4>ABOUT MOVIE STAR</h4>
           <p>About us</p>
           <p>Find us</p>
           <p>Schedule</p>
           <p>News</p>
         </div>
-        <div class="col-sm-3 footer-details">
+        <div class="col-sm-12 col-12 col-md-3 col-lg-3 col-xl-3  footer-details">
           <h4>LEGAL STUFF</h4>
           <p>Terms & Conditions</p>
           <p>Privacy policy</p>
           <p>Cookie policy</p>
         </div>
-        <div class="col-sm-3 footer-details">
+        <div class="col-sm-12 col-12 col-md-3 col-lg-3 col-xl-3 footer-details">
           <h4>CONNECT WITH US</h4>
           <p><i class="fab fa-facebook-f"></i><span>Facebook</span></p>
           <p><i class="fab fa-twitter"></i><span> Twitter</span></p>
@@ -1514,6 +1514,23 @@
 
     });
   </script>
+   <!-- scroll function  -->
+   <script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+        if (document.body.scrollTop >550 || document.documentElement.scrollTop > 550) {
+            document.getElementById("header__run").style.position = "fixed";
+            document.getElementById("header__run").style.top = "-30px";
+            document.getElementById("header__run").style.background = "#101010";
+        }
+        else {
+            document.getElementById("header__run").style.position = "absolute";
+            document.getElementById("header__run").style.top = "0";
+            document.getElementById("header__run").style.background = "transparent ";
+        }
+    }
+</script>
 </body>
 
 </html>
